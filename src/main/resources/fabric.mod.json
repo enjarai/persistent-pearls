@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "persistent-pearls",
+	"version": "${version}",
+	"name": "Persistent Pearls",
+	"description": "Prevent Ender Pearls from despawning when their owner dies, making stasis chambers more viable.",
+	"authors": [
+		"enjarai"
+	],
+	"contact": {
+		"homepage": "https://enjarai.nl/",
+		"sources": "https://github.com/enjarai/persistent-pearls",
+		"issues": "https://github.com/enjarai/persistent-pearls/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/persistent-pearls/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nl.enjarai.persistentpearls.PersistentPearls"
+		]
+	},
+	"mixins": [
+		"persistent-pearls.mixins.json"
+	],
+	"depends": {
+		"minecraft": ">=1.19.3",
+		"fabric-api": "*"
+	},
+
+	"custom": {
+		"projects": {
+			"modrinth": "tGM9405E",
+			"curseforge": 822835
+		}
+	}
+}
