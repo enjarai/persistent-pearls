@@ -24,8 +24,8 @@
 		"persistent-pearls.mixins.json"
 	],
 	"depends": {
-		"minecraft": ">=1.19.3",
-		"fabric-api": "*"
+		"minecraft": "*",
+		"fabric": "*"
 	},
 
 	"custom": {
