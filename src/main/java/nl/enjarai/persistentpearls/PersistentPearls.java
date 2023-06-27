@@ -16,6 +16,5 @@ public class PersistentPearls implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 	}
 }

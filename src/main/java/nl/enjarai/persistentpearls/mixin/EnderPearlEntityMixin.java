@@ -23,7 +23,7 @@ public abstract class EnderPearlEntityMixin extends ThrownItemEntity {
             cancellable = true
     )
     private void persistentPearls$disablePearlDespawn(CallbackInfo ci) {
-        if (world.getGameRules().getBoolean(PEARLS_PERSISTENT_GAMERULE)) {
+        if (getWorld().getGameRules().getBoolean(PEARLS_PERSISTENT_GAMERULE)) {
             super.tick();
             ci.cancel();
         }

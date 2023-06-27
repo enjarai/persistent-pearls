@@ -1,1 +1,1 @@
-- Oh hey, this runs on way more versions than I thought.
+- Fixed compatibility with 1.20.

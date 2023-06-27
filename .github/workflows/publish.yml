@@ -98,7 +98,11 @@ jobs:
             1.19
             1.19.1
             1.19.2
-            ${{ steps.minecraft_version.outputs.value }}
+            1.19.3
+            1.19.4
+            
+            1.20
+            1.20.1
           java: |
             17
             18
